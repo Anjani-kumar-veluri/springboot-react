@@ -1,4 +1,4 @@
-name: Automation using GitHub Actions
+ name: Automation using GitHub Actions
 
 on: 
   push:
