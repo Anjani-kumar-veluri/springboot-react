@@ -15,6 +15,6 @@ jobs:
 
       - name: Deploy
         run: |
-          docker build -t react-frontend:latest -f frontend/Dockerfile .
-          docker build -t spring-backend:latest -f Dockerfile.backend .
+          # docker build -t react-frontend:latest -f frontend/Dockerfile .
+          # docker build -t spring-backend:latest -f Dockerfile.backend .
           docker compose -f compose.yaml up -d
